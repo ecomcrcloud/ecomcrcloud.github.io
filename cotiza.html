@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <section class="bar">
+        <div class="navegador">
+            <div class="img-logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <div id="menu-toggle" class="menu-icon">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <div class="nav" id="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Servicios</a>
+                <a href="index.html">Proyectos</a>
+                <a href="index.html">Nosotros</a>
+            </div>
+            <div class="boton">
+                <a href="#">Cotizar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="parrafo-contacto">
+                <p>"¿Tienes una idea o proyecto en mente? En E-COM, queremos escucharte. Completa el formulario y cuéntanos tu propuesta, tus necesidades o cualquier detalle importante sobre lo que buscas. Nuestro equipo se pondrá en contacto contigo lo más pronto posible para analizar juntos tu idea y ofrecerte una solución personalizada que impulse tu negocio. ¡Estamos listos para ayudarte a dar el siguiente paso en tu presencia digital!"
+            </div>
+            
+            </p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="company-name">Nombre de la Empresa</label>
+                    <input type="text" id="company-name" name="company-name" placeholder="Tu empresa" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+<!-- <section class="Contacto">
+    <div class="titulo-contacto">
+        <h1>Formulario de contacto</h1>
+    </div>
+    <div class="parrafo-contacto">
+        <p>"¿Tienes una idea o proyecto en mente? En E-COM, queremos escucharte. Completa el formulario y cuéntanos tu propuesta, tus necesidades o cualquier detalle importante sobre lo que buscas. Nuestro equipo se pondrá en contacto contigo lo más pronto posible para analizar juntos tu idea y ofrecerte una solución personalizada que impulse tu negocio. ¡Estamos listos para ayudarte a dar el siguiente paso en tu presencia digital!"
+        </p>
+    </div>
+
+</section> -->
+    <section class="footer">
+        <div class="f1">
+            <h6>Compañia</h6>
+            <a href="#">Nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+        </div>
+        <div class="f2">
+            <h6>Ayuda</h6>
+            <a href="#">Preguntas</a>
+            <a href="#">Cotizaciones</a>
+            <a href="#">Que es una paguina web</a>
+            <a href="#">Terminos y Condiciones</a>
+        </div>
+        <div class="f3">
+            <h6>Siguenos en nuestras redes</h6>
+            <div class="links">
+                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="f4">
+            <h6>Estamos para asesorarte</h6>
+            <p>Descubre nuestros servicios envianos un correo con tu idea de pagina web y lo mas pronto posible estaremos en contacto</p>
+            <div class="boton-end">
+                <a href="#">Cotizar</a>
+            </div>
+        </div>
+    </section>
+ <script src="/js.js"></script>
+ <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "vdHLvHbYiXtLFXxR_",
+      });
+   })();
+</script>
+</body>
+</html>
